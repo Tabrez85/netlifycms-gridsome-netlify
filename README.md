@@ -17,7 +17,7 @@ https://nervous-almeida-901e20.netlify.app/
 
 ## Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/suits-at/netlifycms-gridsome)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AhamedFrontEndDeveloper/netlifycms-gridsome-netlify)
 
 ### Enable Identity
 
@@ -27,18 +27,33 @@ Enable the netlify identity service at https://app.netlify.com/sites/YOUR-SITE/s
 
 Access `yourwebsite.com/admin`, e.g. `netfliycms-gridsome.netlify.com/admin` or locally this might be  `localhost:3000/admin`.
 
+## GITHUB Steps:
+
+### 1. Create Github account
+### 2. Clone repo
+### 3. create new branch from Repo
+### 4. commit changes
+### 5. Push changes
+### 6. Create Pull request
+
+Video Tutorial: https://www.youtube.com/watch?v=iv8rSLsi1xo
+
 ## Install locally
 
 ### 1. Install Node if you don't have
 
 https://gridsome.org/docs/prerequisites/
 
-### 1. Install Gridsome CLI tool if you don't have
+### 2. Install all modules
+
+`npm install`
+
+### 3. Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
 
 ### 2. Install this starter
 
-1. `cd my-gridsome-site` to open folder
+1. `cd netlifycms-gridsome-netlify` to open folder
 2. `gridsome develop` to start local dev server at `http://localhost:8080`
 3. Happy coding 🎉🙌
